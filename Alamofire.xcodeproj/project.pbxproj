@@ -970,6 +970,7 @@
 					};
 					F8111E3219A95C8B0040E7D1 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = S5GU4EMC47;
 						LastSwiftMigration = 0900;
 					};
 					F8111E3D19A95C8B0040E7D1 = {
@@ -1650,14 +1651,16 @@
 		F8111E4719A95C8B0040E7D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = S5GU4EMC47;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.alamofire.Alamofire;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sxw365.org.alamofire.Alamofire;
 				PRODUCT_NAME = Alamofire;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1668,13 +1671,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = S5GU4EMC47;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.alamofire.Alamofire;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sxw365.org.alamofire.Alamofire;
 				PRODUCT_NAME = Alamofire;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
